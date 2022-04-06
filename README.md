@@ -13,6 +13,7 @@
     4. Now open http://localhost:8888/static/ and in console we see test_string_1.
 
 In library we work with mylib/src/Constants file, in application with myapp/src/App.ts file. Now:
+
 1. modify in library TEST_STRING to "test_string_2"
 2. build and upload library (in mylib): npm run dev
 3. update module in application (in myapp): npm update @foo/mylib
