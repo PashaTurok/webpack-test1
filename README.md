@@ -14,13 +14,13 @@
 
 In library we work with mylib/src/Constants file, in application with myapp/src/App.ts file. Now:
 
-1. modify in library TEST_STRING to "test_string_2"
-2. build and upload library (in mylib): npm run dev
-3. update module in application (in myapp): npm update @foo/mylib
-4. You will see in browser console: test_string_2
-5. modify in library TEST_STRING to "test_string_3"
-6. build and upload library (in mylib): npm run dev
-7. update module in application (in myapp): npm update @foo/mylib
+1. modify in library TEST_STRING to `test_string_2`
+2. build and upload library (in mylib): `npm run dev`
+3. update module in application (in myapp): `npm update @foo/mylib`
+4. You will see in browser console: `test_string_2`
+5. modify in library TEST_STRING to `test_string_3`
+6. build and upload library (in mylib): `npm run dev`
+7. update module in application (in myapp): `npm update @foo/mylib`
 8. you will NOT see test_string_3 in browser console. If you refresh page you will see test_string_2.
 
 
